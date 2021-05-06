@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  font-size: 50px;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: red;
+}
+
+main {
+  margin: 25px;
+}
+
+.grid {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+}

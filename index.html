@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EXPOSING</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <header>
+      <a href="/index.html">exposing</a>
+    </header>
+    <main>
+      <div class="grid">
+        {% for student in collections.students %}
+        <a href="{{ student.url }}">{{ student.data.title }}</a>
+        {% endfor %}
+      </div>
+    </main>
+  </body>
+</html>
