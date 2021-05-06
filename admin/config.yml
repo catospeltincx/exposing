@@ -5,7 +5,7 @@ media_folder: "images"
 publics_folder: "/images"
 collections:
   - name: "students"
-    lable: "Students"
+    label: "Students"
     folder: "students"
     create: true
     slug: "{{slug}}"
