@@ -1,4 +1,5 @@
 ---
+lay-out: student
 title: Ezra Babski
 project_image: /images/ezra-babski-project.jpeg
 ---

@@ -1,3 +1,4 @@
+<!-- gezamelijke group page -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -14,10 +15,18 @@
     <main>
       <div class="grid">
         {% for student in collections.students %}
-        <a href="{{ student.url }}">{{ student.data.title }}</a>
+        <a
+          class="student-thumb"
+          data-tippy-content="<img src={{ student.data.project_image }}>"
+          href="{{ student.url }}"
+          alt=""
+          >{{ student.data.title }}</a
+        >
         {% endfor %}
       </div>
     </main>
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <script>
       if (window.netlifyIdentity) {
@@ -29,6 +38,11 @@
           }
         });
       }
+
+      tippy("[data-tippy-content]", {
+        allowHTML: true,
+        followCursor: true,
+      });
     </script>
   </body>
 </html>
