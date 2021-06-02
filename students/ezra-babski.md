@@ -1,11 +1,22 @@
 ---
 lay-out: student
-title: Ezra Babski
-project_image: /images/ezra-babski-project.jpeg
+
+name: Ezra Babski
+context: Digital Context
+first_project_image: /images/ezra-babski-project.jpeg
+bio: this is Ezra's bio
+
+title_project: Sonus Novus
+description_project: this is the description of Ezra's Project
+project_image_1: /images/ezra-beeld-01.JPG
+project_image_2: /images/ezra-beeld-02.JPG
+project_image_3: /images/ezra-beeld-03.JPG
+project_image_4: /images/ezra-beeld-04.JPG
+project_image_5: /images/ezra-beeld-05.JPG
+project_image_6: /images/ezra-beeld-06.JPG
+project_image_7: /images/ezra-beeld-07.JPG
+project_image_8: /images/ezra-beeld-08.JPG
+project_image_9: /images/ezra-beeld-09.JPG
+project_image_10: /images/ezra-beeld-10.JPG
+links: ezra.be
 ---
-
-Quis repellendus rem numquam. Quam harum quis animi. Vel voluptate sunt dolores qui.
-
-Quo debitis voluptas quia qui labore. Ipsa nisi ratione sed. Ut nobis earum quia est. Blanditiis ducimus ea aut eius necessitatibus non. Et qui aut delectus dolore quidem totam. Vel explicabo quaerat quisquam veniam eos quia.
-
-At omnis et nulla ea recusandae quidem rerum recusandae. Et aliquid est et facere. Eius eos quidem est. Tempore culpa eos voluptatibus voluptatum sapiente. Debitis aut perspiciatis ut a magni atque.
