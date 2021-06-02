@@ -32,3 +32,7 @@ main {
 .tippy-arrow {
   display: none;
 }
+
+.data-tippy-root {
+  margin-top: 100px;
+}

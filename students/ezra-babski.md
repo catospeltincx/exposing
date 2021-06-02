@@ -18,5 +18,6 @@ project_image_7: /images/ezra-beeld-07.JPG
 project_image_8: /images/ezra-beeld-08.JPG
 project_image_9: /images/ezra-beeld-09.JPG
 project_image_10: /images/ezra-beeld-10.JPG
-links: ezra.be
+link_1: www.ezra.be
+link_2: www.babski.be
 ---

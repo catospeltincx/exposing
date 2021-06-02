@@ -10,6 +10,6 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Student name", name: "name", widget: "string" }
       - { label: "Thumbnail Image", name: "thumb_image", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
