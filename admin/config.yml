@@ -11,6 +11,8 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Student name", name: "name", widget: "string" }
+      - { label: "Project title", name: "project name", widget: "string" }
+
       - {
           label: "Context",
           name: "context",
@@ -23,5 +25,20 @@ collections:
               "Socio-Political Context",
             ],
         }
-      - { label: "Thumbnail Image", name: "thumb_image", widget: "image" }
+      - {
+          label: "Academic year",
+          name: "year",
+          widget: "select",
+          options: ["2020-2021"],
+        }
+      - { label: "Poster image", name: "poster_image", widget: "image" }
+      - { label: "Bio", name: "bio", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - {
+          label: "Images",
+          name: "galleryImages",
+          widget: "list",
+          summary: "{{fields.image}}",
+          field: { label: Image, name: image, widget: image },
+        }
+      - { label: "Social links", name: "social-links", widget: "list" }
