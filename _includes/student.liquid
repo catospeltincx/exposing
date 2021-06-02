@@ -13,6 +13,7 @@
       <a href="/">exposing</a>
     </header>
     <main>
+
         <h1>{{ name }}</h1>
         <h2> {{ context }} </h2>
         <img src= "{{ first_project_image }}" alt="{{ name }}"/>
@@ -33,5 +34,17 @@
         <a href="{{ link_2 }}">{{ link_2 }}</a>
         
         </main>
+        <aside>
+        {% for student in collections.students %}
+          <p>{{ student.data.name }}</p>
+          <a
+            class="student-thumb"
+            href="{{ student.url }}"
+            alt=""
+          >
+            <img src="{{ student.data.first_project_image }}" />
+          </a>
+          {% endfor %}
+        </aside>
     </body>
 </html>
