@@ -11,7 +11,11 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Student name", name: "name", widget: "string" }
-      - { label: "Project title", name: "project name", widget: "string" }
+      - {
+          label: "Master project title",
+          name: "master_project_name",
+          widget: "string",
+        }
 
       - {
           label: "Context",
@@ -30,15 +34,21 @@ collections:
           name: "year",
           widget: "select",
           options: ["2020-2021"],
+          default: "2020-2021",
         }
-      - { label: "Poster image", name: "poster_image", widget: "image" }
-      - { label: "Bio", name: "bio", widget: "text" }
+      - { label: "Main image", name: "main_image", widget: "image" }
+      - { label: "Bio", name: "bio", widget: "text", hint: "" }
       - { label: "Body", name: "body", widget: "markdown" }
       - {
           label: "Images",
-          name: "galleryImages",
+          name: "images",
           widget: "list",
           summary: "{{fields.image}}",
           field: { label: Image, name: image, widget: image },
         }
-      - { label: "Social links", name: "social-links", widget: "list" }
+      - {
+          label: "Social links",
+          name: "social_links",
+          widget: "list",
+          field: { label: Url, name: url, widget: string },
+        }
