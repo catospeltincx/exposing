@@ -11,5 +11,17 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Student name", name: "name", widget: "string" }
+      - {
+          label: "Context",
+          name: "context",
+          widget:"select",
+          options:
+            [
+              "Digital Context",
+              "Autonomous Context",
+              "Applied Context",
+              "Socio-Political Context",
+            ],
+        }
       - { label: "Thumbnail Image", name: "thumb_image", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
