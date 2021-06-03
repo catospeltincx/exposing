@@ -10,7 +10,12 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Student name", name: "name", widget: "string" }
+      - {
+          label: "Student name",
+          name: "name",
+          widget: "string",
+          hint: "Surname Name",
+        }
       - {
           label: "Master project title",
           name: "project_title",

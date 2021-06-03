@@ -38,6 +38,6 @@ main {
 }
 
 /* SIDE BAR */
-.aside {
-  background-color: black;
+aside {
+  background: black;
 }
