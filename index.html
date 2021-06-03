@@ -1,4 +1,3 @@
-<!-- gezamelijke group page -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -17,10 +16,10 @@
       <div class="grid">
         <div class="student">
           {% for student in collections.students %}
-          <p>{{ student.data.name }}</p>
+          <p>{{ student.data.student_name }}</p>
           <a
             class="student-thumb"
-            data-tippy-content="<img src={{ student.data.project_image_1 }}>"
+            data-tippy-content="<img src={{ student.data.main_image }}>"
             href="{{ student.url }}"
             alt=""
           >

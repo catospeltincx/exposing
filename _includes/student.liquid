@@ -12,26 +12,10 @@
         <header>
       <a href="/">Practise Practise</a>
     </header>
-    <main>
 
-        <p>{{ student_name }}</p>
-        <p>{{ project_title }}</p>
-        <p> {{ context }} </p>
-        <p> {{ year }} </p>
-        <img src="{{ main_image }}"/>
-        <p> {{ bio }} </p>
-        <img src="{{ images }}"/>
-        <p>{{ content }}</p>
-        <a href="{% for link in social_links %}">{% for link in social_links %}</a>
-        
-        </main>
-
-
-
-
-        <aside>
-        {% for student in collections.students %}
-          <p>{{ student.data.name }}</p>
+    <aside>
+      {% for student in collections.students %}
+          <p>{{ student.data.student_name }}</p>
           <a
             class="student-thumb"
             href="{{ student.url }}"
@@ -39,7 +23,22 @@
           >
             <img src="{{ student.data.main_image }}" />
           </a>
-          {% endfor %}
-        </aside>
+      {% endfor %}
+    </aside>
+
+    <main>
+        <p>{{ student_name }}</p>
+        <p>{{ project_title }}</p>
+        <p> {{ context }} </p>
+        <p> {{ year }} </p>
+        <img src="{{ main_image }}"/>
+        <p> {{ bio }} </p>
+        {% for image in images %}
+        <img src="{{ image }}" alt="beschrijving van het beeld?" />
+        {% endfor %}
+        <p>{{ content }}</p>
+        <a href="{% for link in social_links %}">{% for link in social_links %}</a>
+      </main>
+
     </body>
 </html>
