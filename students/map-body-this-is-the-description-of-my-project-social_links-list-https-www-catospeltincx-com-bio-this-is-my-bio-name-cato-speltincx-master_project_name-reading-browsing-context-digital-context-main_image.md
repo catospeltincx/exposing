@@ -1,5 +1,5 @@
 ---
-student_name: Cato Speltincx
+name: Cato Speltincx
 project_title: Reading, Browsing
 context: Digital Context
 year: 2020-2021
@@ -13,6 +13,7 @@ images:
   - /images/cover-05.jpeg
 social_links:
   - https://www.catospeltincx.com
+student_name: Cato Speltincx
 ---
 
 This is the description of my project.
