@@ -42,8 +42,18 @@ collections:
           default: "2020-2021",
         }
       - { label: "Main image", name: "main_image", widget: "image" }
-      - { label: "Bio", name: "bio", widget: "text", hint: "" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - {
+          label: "Bio",
+          name: "bio",
+          widget: "text",
+          hint: "Describe yourself and your work.",
+        }
+      - {
+          label: "Body",
+          name: "body",
+          widget: "markdown",
+          hint: "Describe your project.",
+        }
       - {
           label: "Images",
           name: "images",
@@ -56,6 +66,7 @@ collections:
           label: "Social links",
           name: "social_links",
           widget: "list",
+          hint: "Social Media, Portfolio, ..."
           label_singular: "link",
           field: { label: Url, name: url, widget: string },
         }
