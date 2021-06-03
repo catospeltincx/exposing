@@ -1,6 +1,6 @@
 ---
 name: Cato Speltincx
-master_project_name: Reading, Browsing
+projecttitle: Reading, Browsing
 context: Digital Context
 year: 2020-2021
 main_image: /images/cover-06.jpeg
@@ -14,4 +14,5 @@ images:
 social_links:
   - https://www.catospeltincx.com
 ---
+
 This is the description of my project.

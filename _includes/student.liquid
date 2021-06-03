@@ -14,24 +14,15 @@
     </header>
     <main>
 
-        <h1>{{ name }}</h1>
-        <h2> {{ context }} </h2>
-        <img src= "{{ first_project_image }}" alt="{{ name }}"/>
-        <h3> {{ bio }} </h3>
-        <h2> {{ title_project }} </h2>
-        <h3> {{ description_project }} </h3>
-        <img src= "{{ project_image_1 }}" alt="{{ name }}"/>
-        <img src= "{{ project_image_2 }}" alt="{{ name }}"/>
-        <img src= "{{ project_image_3 }}" alt="{{ name }}"/>
-        <img src= "{{ project_image_4 }}" alt="{{ name }}"/>
-        <img src= "{{ project_image_5 }}" alt="{{ name }}"/>
-        <img src= "{{ project_image_6 }}" alt="{{ name }}"/>
-        <img src= "{{ project_image_7 }}" alt="{{ name }}"/>
-        <img src= "{{ project_image_8 }}" alt="{{ name }}"/>
-        <img src= "{{ project_image_9 }}" alt="{{ name }}"/>
-        <img src= "{{ project_image_10 }}" alt="{{ name }}"/>
-        <a href="{{ link_1 }}">{{ link_1 }}</a>
-        <a href="{{ link_2 }}">{{ link_2 }}</a>
+        <p>{{ name }}</p>
+        <p>{{ projecttitle }}</p>
+        <p> {{ context }} </p>
+        <p> {{ year }} </p>
+        <p> {{ bio }} </p>
+        <img src="{{ main_image }}">
+        
+        <img src= "{{ images }}" alt="{{ name }}"/>
+        <a href="{{ social_links }}">{{ link_1 }}</a>
         
         </main>
         <aside>
@@ -42,7 +33,7 @@
             href="{{ student.url }}"
             alt=""
           >
-            <img src="{{ student.data.first_project_image }}" />
+            <img src="{{ student.data.main_image }}" />
           </a>
           {% endfor %}
         </aside>
