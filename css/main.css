@@ -36,3 +36,8 @@ main {
 .data-tippy-root {
   margin-top: 100px;
 }
+
+/* SIDE BAR */
+.aside {
+  background-color: black;
+}

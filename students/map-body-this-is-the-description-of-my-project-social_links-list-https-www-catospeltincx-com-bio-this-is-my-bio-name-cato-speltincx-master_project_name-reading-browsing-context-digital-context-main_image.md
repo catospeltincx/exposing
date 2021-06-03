@@ -1,6 +1,6 @@
 ---
-name: Cato Speltincx
-projecttitle: Reading, Browsing
+student_name: Cato Speltincx
+project_title: Reading, Browsing
 context: Digital Context
 year: 2020-2021
 main_image: /images/cover-06.jpeg

@@ -10,21 +10,25 @@
   </head>
     <body>
         <header>
-      <a href="/">exposing</a>
+      <a href="/">Practise Practise</a>
     </header>
     <main>
 
-        <p>{{ name }}</p>
-        <p>{{ projecttitle }}</p>
+        <p>{{ student_name }}</p>
+        <p>{{ project_title }}</p>
         <p> {{ context }} </p>
         <p> {{ year }} </p>
+        <img src="{{ main_image }}"/>
         <p> {{ bio }} </p>
-        <img src="{{ main_image }}">
-        
-        <img src= "{{ images }}" alt="{{ name }}"/>
-        <a href="{{ social_links }}">{{ link_1 }}</a>
+        <img src="{{ images }}"/>
+        <p>{{ content }}</p>
+        <a href="{{ social_links }}">{{ social_links }}</a>
         
         </main>
+
+
+
+
         <aside>
         {% for student in collections.students %}
           <p>{{ student.data.name }}</p>
