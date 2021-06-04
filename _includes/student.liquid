@@ -37,7 +37,9 @@
         <img src="{{ image }}" alt="beschrijving van het beeld?" />
         {% endfor %}
         <p>{{ content }}</p>
-        <a href="{% for link in social_links %}">{% for link in social_links %}</a>
+        {% for link in social_links %}
+        <a href="{{ link }}">{{ link }}</a>
+        {% endfor %}
       </main>
 
     </body>
