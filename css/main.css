@@ -41,7 +41,10 @@ a.icon {
 }
 
 header {
-  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
   background-color: cadetblue;
 }
 
@@ -50,21 +53,17 @@ header #inner-intro {
 }
 
 .context-nav {
+  position: relative;
   display: grid;
   column-gap: 15px;
   grid-auto-flow: row;
-  grid-template-columns: 100% 100% 100% 100%;
+  grid-template-columns: 50vw 50vw 50vw 50vw;
+  overflow: scroll;
+  margin-top: 100px;
 }
 
 .context-nav p {
   width: 100vw;
-}
-
-.grid {
-  display: grid;
-  column-gap: 15px;
-  grid-auto-flow: row;
-  grid-template-columns: 100% 100% 100% 100%;
 }
 
 /* SIDE BAR */

@@ -40,26 +40,26 @@
         <h2>Autonomous Context</h2>
         <h2>Applied Context</h2>
         <h2>Socio-Political Context</h2>
+          <div class="student">
+            {% for student in collections.students %}
+            <a
+              class="student-thumb"
+              data-tippy-content="<img src={{ student.data.main_image }}>"
+              href="{{ student.url }}"
+              alt=""
+            >
+              <img src="{{ student.data.main_image }}" />
+            </a>
+            <p>
+              {{ student.data.student_name }} &mdash; {{
+              student.data.project_title }}
+            </p>
+            {% endfor %}
+          </div>
+        
       </div>
 
-      <div class="grid">
-        <div class="student">
-          {% for student in collections.students %}
-          <a
-            class="student-thumb"
-            data-tippy-content="<img src={{ student.data.main_image }}>"
-            href="{{ student.url }}"
-            alt=""
-          >
-            <img src="{{ student.data.main_image }}" />
-          </a>
-          <p>
-            {{ student.data.student_name }} &mdash; {{
-            student.data.project_title }}
-          </p>
-          {% endfor %}
-        </div>
-      </div>
+
     </main>
     <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
     <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
