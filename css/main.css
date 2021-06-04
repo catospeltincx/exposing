@@ -2,8 +2,17 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: Aeronef;
+  src: url(/fonts/Fibel_Sued.ttf);
+}
+
 a {
   font-size: 50px;
+}
+
+p {
+  font-family: Aeronef;
 }
 
 img {
