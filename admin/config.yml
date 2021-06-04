@@ -8,7 +8,7 @@ collections:
     label: "Students"
     folder: "students"
     create: true
-    slug: "{{slug}}"
+    slug: "{{student_name}}"
     fields:
       - {
           label: "Student name",
