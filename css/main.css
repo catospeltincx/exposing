@@ -32,11 +32,21 @@ body {
 }
 
 /* Group Page */
+/* Hamburger Menu*/
+a.icon {
+  background: brown;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
 header {
-  display: grid;
-  column-gap: 15px;
-  grid-auto-flow: row;
-  grid-template-columns: 100% 100% 100% 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+header #inner-intro {
+  display: none;
 }
 
 .context-nav {

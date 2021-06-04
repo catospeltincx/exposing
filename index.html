@@ -6,30 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EXPOSING</title>
     <link rel="stylesheet" href="/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <header>
-      <div class="intro">
         <a href="/index.html"><h2>Sint Lucas Masters</h2></a>
-        <h2>
-          Intro paragraph, Resources exquisite set arranging moonlight him
-          household had. Months had too ham cousin remove far spirit. She
-          procuring the why performed continual improving. Civil songs so large
-          shade in cause. Lady an mr here must neat sold. Children greatest ye
-          extended delicate of. No elderly passage earnest as in removed winding
-          or.
-        </h2>
-      </div>
-      <div class="expo">
-        <h2>Practise Practice</h2>
-        <h2>26.06 &mdash; 04.06.2021</h2>
-        <h2>everyday from 13h &mdash; 17h</h2>
-        <h2>Masters expo at Sint Lucas Antwerpen</h2>
-        <h2>Van Schoonbekestraat 143, 2018 Antwerpen</h2>
-        <h2></h2>
-        <h2>Nocturne 01.06 from 18h &mdash; 21h</h2>
-      </div>
+        <div id="inner-intro" >
+          <h2>
+            Intro paragraph, Resources exquisite set arranging moonlight him
+            household had. Months had too ham cousin remove far spirit. She
+            procuring the why performed continual improving. Civil songs so
+            large shade in cause. Lady an mr here must neat sold. Children
+            greatest ye extended delicate of. No elderly passage earnest as in
+            removed winding or.
+          </h2>
+
+          <h2></h2>
+            Practise Practice, 26.06 &mdash; 04.06.2021, everyday from 13h
+            &mdash; 17h, Masters expo at Sint Lucas Antwerpen, Van
+            Schoonbekestraat 143, 2018 Antwerpen, Nocturne 01.06 from 18h
+            &mdash; 21h
+          </h2>
+
+        </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
     </header>
+
     <main>
       <div class="context-nav">
         <h2>Digital Context</h2>
@@ -61,6 +68,17 @@
     <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <script>
+      //intro
+      function myFunction() {
+        var x = document.getElementById("inner-intro");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+
+      //tippy-tool
       if (window.netlifyIdentity) {
         window.netlifyIdentity.on("init", (user) => {
           if (!user) {
