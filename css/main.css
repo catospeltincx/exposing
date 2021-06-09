@@ -2,12 +2,18 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: PracPracRegular;
+  src: url(/fonts/PracPracRegular.woff2);
+}
+
 p,
 a,
 h1,
 h2,
 h3 {
   margin: 0 0 0 10px;
+  font-family: PracPracRegular;
 }
 
 img {
@@ -41,7 +47,6 @@ a.icon {
 }
 
 header {
-  position: absolute;
   left: 0;
   top: 0;
   width: 100vw;
