@@ -40,7 +40,7 @@ body {
 /* Group Page */
 /* Hamburger Menu*/
 a.icon {
-  background: brown;
+  background: rgb(96, 176, 122);
   position: absolute;
   right: 0;
   top: 0;
@@ -50,7 +50,7 @@ header {
   left: 0;
   top: 0;
   width: 100vw;
-  background-color: cadetblue;
+  background-color: rgb(255, 0, 0);
 }
 
 header #inner-intro {

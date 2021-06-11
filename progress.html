@@ -4,10 +4,93 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EXPOSING</title>
     <link rel="stylesheet" href="/css/main.css" />
-    <title>Sint Lucas Masters</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <p>Website Sint Lucas Masters in progress</p>
+    <header>
+        <a href="/index.html"><h2>Sint Lucas Masters</h2></a>
+        <div id="inner-intro" >
+          <h2>
+            Intro paragraph, Resources exquisite set arranging moonlight him
+            household had. Months had too ham cousin remove far spirit. She
+            procuring the why performed continual improving. Civil songs so
+            large shade in cause. Lady an mr here must neat sold. Children
+            greatest ye extended delicate of. No elderly passage earnest as in
+            removed winding or.
+          </h2>
+
+          <h2></h2>
+            Practise Practice, 26.06 &mdash; 04.06.2021, everyday from 13h
+            &mdash; 17h, Masters expo at Sint Lucas Antwerpen, Van
+            Schoonbekestraat 143, 2018 Antwerpen, Nocturne 01.06 from 18h
+            &mdash; 21h
+          </h2>
+
+        </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fas fa-horse fa-rotate-270"></i>
+      </a>
+    </header>
+
+    <main>
+      <div class="context-nav">
+        <h2>Digital Context</h2>
+        <h2>Autonomous Context</h2>
+        <h2>Applied Context</h2>
+        <h2>Socio-Political Context</h2>
+          <div class="student">
+            {% for student in collections.students %}
+            <a
+              class="student-thumb"
+              data-tippy-content="<img src={{ student.data.main_image }}>"
+              href="{{ student.url }}"
+              alt=""
+            >
+              <img src="{{ student.data.main_image }}" />
+            </a>
+            <p>
+              {{ student.data.student_name }} &mdash; {{
+              student.data.project_title }}
+            </p>
+            {% endfor %}
+          </div>
+        
+      </div>
+
+
+    </main>
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script>
+      //hamburger button
+      function myFunction() {
+        var x = document.getElementById("inner-intro");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+
+      //tippy-tool
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", (user) => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+
+      tippy("[data-tippy-content]", {
+        allowHTML: true,
+        followCursor: true,
+      });
+    </script>
   </body>
 </html>
+
