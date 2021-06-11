@@ -36,7 +36,23 @@
 
     <main>
       <div class="context-nav">
+        
+        
+        <div class="context">
         <h2>Digital Context</h2>
+        {% for student in collections.digitalContext %}
+        <a
+          class="student-thumb"
+          data-tippy-content="<img src={{ student.data.main_image }}>"
+          href="{{ student.url }}"
+          alt=""
+        >
+          {{ student.data.student_name }}
+        </a>
+        {% endfor %}
+      </div>
+
+
         <h2>Autonomous Context</h2>
         <h2>Applied Context</h2>
         <h2>Socio-Political Context</h2>
