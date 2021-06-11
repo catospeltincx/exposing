@@ -1,7 +1,7 @@
 ---
 student_name: Cato Speltincx
 project_title: Reading, Browsing
-context: Digital Context
+context: Autonomous Context
 year: 2020-2021
 main_image: /images/cover-06.jpeg
 bio: This is my bio.
