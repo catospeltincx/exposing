@@ -13,10 +13,8 @@ h1,
 h2,
 h3 {
   margin: 0 0 0 10px;
-  font-family: PracPracRegular;
-  padding-top: 5rem;
-  font-size: 6rem;
   color: white;
+  text-decoration: none;
 }
 
 img {
@@ -50,6 +48,14 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 25px;
+  font-family: PracPracRegular;
+  font-size: 3rem;
+  max-width: 100vw;
+}
+
+.img-progress {
+  width: 100%;
+  display: none;
 }
 
 /* Group Page */
