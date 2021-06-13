@@ -6,10 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/main.css" />
     <title>Sint-Lucas Masters</title>
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script src="https://identit .netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
   <body>
-    <p>Website in progress</p>
+    <div class="progress">
+      <a>Website in progress</a>
+    </div>
+
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
     <script>
       if (window.netlifyIdentity) {
         window.netlifyIdentity.on("init", (user) => {
@@ -20,6 +25,12 @@
           }
         });
       }
+
+      tippy(".progress", {
+        content: '<img src="/images/progress.jpg"/>',
+        allowHTML: true,
+        followCursor: true,
+      });
     </script>
   </body>
 </html>
