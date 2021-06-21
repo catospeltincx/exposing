@@ -64,7 +64,7 @@ collections:
         }
       - {
           label: "Social links",
-          name: "{% for link in social_links %}",
+          name: "social_links",
           widget: "list",
           hint: "add links to your Social Media, Portfolio, ...",
           label_singular: "link",
