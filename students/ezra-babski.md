@@ -1,7 +1,7 @@
 ---
 student_name: Ezra Babski
 project_title: Sonus Novus
-context: Digital Context
+context: Autonomous Context
 year: 2020-2021
 main_image: /images/fien-stappaerts-project.jpeg
 bio: this is Ezra's bio
