@@ -13,5 +13,7 @@ images:
   - /images/cato-speltincx-04.png
   - /images/cato-speltincx-05.png
   - /images/cato-speltincx-06.png
+"{% for link in social_links %}":
+  - https://www.instagram.com/catospelt/
 ---
 The book consists of automatically generated page links, images and captions from Wikipedia. These lists of information come from a list containing key words that describe my research. A spread from the book that includes page links, images and captions automatically generated from Wikipedia.
