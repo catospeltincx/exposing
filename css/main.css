@@ -7,14 +7,26 @@
   src: url(/fonts/PracPracRegular.woff2);
 }
 
+@font-face {
+  font-family: Sequel45;
+  src: url(/fonts/OGJ\ Type\ Design\ -\ Sequel\ 100\ Black\ 45.ttf);
+}
+
 p,
 a,
 h1,
 h2,
 h3 {
   margin: 0 0 0 10px;
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
+}
+
+mark {
+  font-family: PracPracRegular;
+  font-size: 5rem;
+  background: none;
+  line-height: 4.5rem;
 }
 
 img {
@@ -23,7 +35,11 @@ img {
 
 body {
   margin: 0;
-  background-color: black;
+  background-color: rgb(255, 255, 255);
+}
+
+a.home {
+  background-color: red;
 }
 
 .tippy-box {
@@ -39,7 +55,7 @@ body {
   margin-top: 100px;
 }
 
-/*In Progress Page*/
+/*Website in Progress Page*/
 .progress {
   display: flex;
   flex-direction: column;
@@ -62,34 +78,56 @@ body {
 /* Group Page */
 /* Hamburger Menu*/
 a.icon {
-  background: rgb(96, 176, 122);
+  background: rgb(0, 0, 0);
   position: absolute;
   right: 0;
   top: 0;
 }
 
+/* Header */
+
 header {
   left: 0;
   top: 0;
   width: 100vw;
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(255, 255, 255);
 }
 
 header #inner-intro {
   display: none;
 }
 
+h1 {
+  line-height: 2.5rem;
+  font-family: Sequel45;
+}
+
+#inner-intro {
+  padding: 15px 0 15px 0;
+}
+
+#inner-intro h2 {
+  color: rgb(0, 0, 0);
+  font-size: 1.2rem;
+  font-family: Sequel45;
+}
+
+/* BODY */
 .context-nav {
   position: relative;
   display: grid;
-  column-gap: 15px;
+  column-gap: 25px;
   grid-auto-flow: row;
   grid-template-columns: 50vw 50vw 50vw 50vw;
   overflow: scroll;
-  margin-top: 100px;
+  margin-top: 15px;
 }
 
 .context-nav p {
+  font-family: Sequel45;
+}
+
+.context {
   width: 100vw;
 }
 

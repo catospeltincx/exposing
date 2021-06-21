@@ -5,15 +5,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ student_name }} *** {{project_title}} </title>
+    <title>{{ student_name }} &mdash; {{project_title}} </title>
     <link rel="stylesheet" href="/css/main.css" />
+        <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
     <body>
-        <header>
-      <a href="/">Practise Practise</a>
+    <header>
+      <a href="/progress" class="home" >&#10594;</a>
+      <a href="/progress"
+        ><h1>Sint Lucas Masters &mdash; <mark>Practise Practice</mark></h1></a
+      >
+      <div id="inner-intro">
+        <h2>
+          Practise Practice, 26.06 &mdash; 04.06.2021, everyday from 13h &mdash;
+          17h, Masters expo at Sint Lucas Antwerpen, Van Schoonbekestraat 143,
+          2018 Antwerpen, Nocturne 01.06 from 18h &mdash; 21h
+        </h2>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <!-- <i class="fas fa-horse fa-rotate-270"></i> -->
+        <i class="fas fa-circle"></i>
+      </a>
     </header>
 
-    <aside>
+    {% comment %} <aside>
       {% for student in collections.students %}
           <p>{{ student.data.student_name }}</p>
           <a
@@ -24,7 +42,7 @@
             <img src="{{ student.data.main_image }}" />
           </a>
       {% endfor %}
-    </aside>
+    </aside> {% endcomment %}
 
     <main>
         <p>{{ student_name }}</p>
@@ -41,6 +59,16 @@
         <a href="{{ link }}">{{ link }}</a>
         {% endfor %}
       </main>
+
+      <script>      //hamburger button
+      function myFunction() {
+        var x = document.getElementById("inner-intro");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }</script>
 
     </body>
 </html>
