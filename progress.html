@@ -38,11 +38,14 @@
     <main>
       <div class="students">
 
+        
       <div class="digital">
         <h2 class="context" >Digital Context</h2>
-        {% for student in collections.digitalContext %}
-        <a class="student-thumb" href="{{ student.url }}"><img src="{{ student.data.main_image }}" alt=""></a>
-        {% endfor %}
+        <div class="student">
+          {% for student in collections.digitalContext %}
+          <a class="student-thumb" href="{{ student.url }}"><img src="{{ student.data.main_image }}" alt=""></a>
+          {% endfor %}
+        </div>
       </div>
 
       <div class="autonomous">
