@@ -135,6 +135,16 @@ h2.context {
   width: 100%;
 }
 
+.students {
+  position: relative;
+  display: grid;
+  column-gap: 25px;
+  grid-auto-flow: row;
+  grid-template-columns: 50vw 50vw 50vw 50vw;
+  overflow: scroll;
+  margin-top: 15px;
+}
+
 /* SIDE BAR */
 aside {
   background: rgb(206, 57, 57);
