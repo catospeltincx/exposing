@@ -43,15 +43,22 @@
         <h2 class="context" >Digital Context</h2>
         <div class="student">
           {% for student in collections.digitalContext %}
-          <a class="student-thumb" href="{{ student.url }}"><img src="{{ student.data.main_image }}" alt=""></a>
+          <div class="student-student">
+            <a class="student-thumb" href="{{ student.url }}"><img src="{{ student.data.main_image }}" alt=""></a>
+            <p>{{ student.data.project_title }}</p>
+            <p>{{ student.data.student_name }}</p>
+          </div>
           {% endfor %}
         </div>
+        
       </div>
 
       <div class="autonomous">
         <h2 class="context" >Autonomous Context</h2> 
         {% for student in collections.autonomousContext %}
         <a class="student-thumb" href="{{ student.url }}"><img src="{{ student.data.main_image }}" alt=""></a>
+        <p>{{ student.data.project_title }}</p>
+        <p>{{ student.data.student_name }}</p>
         {% endfor %}
       </div>
        
@@ -59,6 +66,8 @@
         <h2 class="context" >Applied Context</h2>
         {% for student in collections.appliedContext %}
         <a class="student-thumb" href="{{ student.url }}"><img src="{{ student.data.main_image }}" alt=""></a>
+        <p>{{ student.data.project_title }}</p>
+        <p>{{ student.data.student_name }}</p>
         {% endfor %}
       </div>
 
@@ -66,6 +75,8 @@
         <h2 class="context" >Socio-Political Context</h2>
         {% for student in collections.sociopoliticalContext %}
         <a class="student-thumb" href="{{ student.url }}"><img src="{{ student.data.main_image }}" alt=""></a>
+        <p>{{ student.data.project_title }}</p>
+        <p>{{ student.data.student_name }}</p>
         {% endfor %}
       </div>
       </div>

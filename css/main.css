@@ -19,6 +19,8 @@ h2,
 h3 {
   color: rgb(0, 0, 0);
   text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
 
 mark {
@@ -123,8 +125,14 @@ h1 {
   flex-direction: row;
 }
 
+.student-text {
+  display: flex;
+  flex-direction: row;
+}
+
 h2.context {
   width: 100vw;
+  font-size: 2rem;
 }
 
 .students {
@@ -140,9 +148,4 @@ h2.context {
 /* SIDE BAR */
 aside {
   background: rgb(206, 57, 57);
-}
-
-/* STUDENT */
-.student p {
-  padding-bottom: 50px;
 }
