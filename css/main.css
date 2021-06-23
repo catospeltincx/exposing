@@ -131,8 +131,8 @@ h1 {
   font-family: Sequel45;
 }
 
-.context {
-  width: 100vw;
+h2.context {
+  width: 100%;
 }
 
 /* SIDE BAR */
