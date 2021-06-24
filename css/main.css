@@ -147,13 +147,25 @@ aside {
   background: rgb(206, 57, 57);
 }
 
+footer {
+  display: flex;
+  flex-direction: row;
+  padding: 25px;
+  max-height: 150px;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+}
+
+.contact {
+  padding-left: 25px;
+}
+
 @media screen and (min-width: 768px) {
   .img-progress {
     display: none;
-  }
-
-  body {
-    padding: 25px;
   }
 
   .students {
@@ -164,6 +176,7 @@ aside {
     overflow-y: scroll;
     height: 100vh;
     width: 100vw;
+    padding: 25px;
   }
 
   .student {
@@ -189,20 +202,6 @@ aside {
 
   .student-student {
     padding-bottom: 2.5rem;
-  }
-
-  footer {
-    display: flex;
-    flex-direction: row;
-    padding: 25px 0 0 0;
-  }
-
-  .logo {
-    width: 12vw;
-  }
-
-  .contact {
-    padding-left: 25px;
   }
 
   .tippy-box {
