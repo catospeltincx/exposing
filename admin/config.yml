@@ -38,8 +38,8 @@ collections:
           label: "Academic year",
           name: "year",
           widget: "select",
-          options: ["2020-2021"],
-          default: "2020-2021",
+          options: ["2020—2021"],
+          default: "2020—2021",
         }
       - { label: "Main image", name: "main_image", widget: "image" }
       - {

@@ -26,46 +26,39 @@
       <a href="/progress"
         ><h1>Sint Lucas Masters &mdash; <mark>Practise Practice</mark></h1></a
       >
-      <div id="inner-intro">
+
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <!-- <i class="fas fa-horse fa-rotate-270"></i> -->
+        <i class="fas fa-circle"></i>
+        <p>info</p>
+      </a>
+            <div id="inner-intro">
         <h2>
           Practise Practice, 26.06 &mdash; 04.06.2021, everyday from 13h &mdash;
           17h, Masters expo at Sint Lucas Antwerpen, Van Schoonbekestraat 143,
           2018 Antwerpen, Nocturne 01.06 from 18h &mdash; 21h
         </h2>
       </div>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <!-- <i class="fas fa-horse fa-rotate-270"></i> -->
-        <i class="fas fa-circle"></i>
-      </a>
     </header>
 
-    {% comment %} <aside>
-      {% for student in collections.students %}
-          <p>{{ student.data.student_name }}</p>
-          <a
-            class="student-thumb"
-            href="{{ student.url }}"
-            alt=""
-          >
-            <img src="{{ student.data.main_image }}" />
-          </a>
-      {% endfor %}
-    </aside> {% endcomment %}
 
     <main>
-        <p>{{ student_name }}</p>
-        <p>{{ project_title }}</p>
-        <p> {{ context }} </p>
-        <p> {{ year }} </p>
-        <img src="{{ main_image }}"/>
-        <p> {{ bio }} </p>
-        {% for image in images %}
-        <img src="{{ image }}" alt="beschrijving van het beeld?" />
-        {% endfor %}
-        <p>{{ content }}</p>
-        {% for link in social_links %}
-        <a class="social_links" target="_blank" href="{{ link }}">{{ link }}</a>
-        {% endfor %}
+        <div class="student-page">
+          <p class="page-text" >{{ student_name }}</p>
+          <p class="page-text" >{{ project_title }}</p>
+          <p class="page-text" > {{ context }} </p>
+          <p class="page-text" > {{ year }} </p>
+          <p class="page-text" > {{  }} </p>
+          <img class="page-img" src="{{ main_image }}"/>
+          <p class="page-text-brood" > {{ bio }} </p>
+          {% for image in images %}
+          <img class="page-img" src="{{ image }}" alt="" />
+          {% endfor %}
+          <p class="page-text-brood">{{ body }}</p>
+          {% for link in social_links %}
+          <a class="social_links" target="_blank" href="{{ link }}">{{ link }}</a>
+          {% endfor %}
+        </div>
       </main>
 
       <script>      //hamburger button
@@ -77,6 +70,15 @@
           x.style.display = "block";
         }
       }</script>
+        <footer>
+    <img class="logo" src="/images/sla-logo.png" />
+    <div class="contact">
+      <a href="https://www.sintlucasantwerpen.be/">Sint Lucas Antwerpen</a>
+      <p>Van Schoonbekestraat 143</p>
+      <p>2018 Antwerpen</p>
+    </div>
+  </footer>
 
     </body>
+
 </html>
