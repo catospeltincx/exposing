@@ -146,7 +146,7 @@ aside {
   background: rgb(206, 57, 57);
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 768px) {
   .img-progress {
     display: none;
   }
@@ -171,5 +171,23 @@ aside {
 
   h2.context {
     width: 25vw;
+  }
+
+  p {
+    display: none;
+  }
+
+  .digital,
+  .autonomous,
+  .applied,
+  .sociopolitical {
+    display: flex;
+    flex-direction: column;
+  }
+
+  data-tippy-content {
+    z-index: 1;
+    font-size: 50px;
+    color: rgb(0, 255, 170);
   }
 }

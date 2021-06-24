@@ -44,7 +44,7 @@
         <div class="student">
           {% for student in collections.digitalContext %}
           <div class="student-student">
-            <a class="student-thumb" href="{{ student.url }}"><img id="img" src="{{ student.data.main_image }}" alt=""></a>
+            <a class="student-thumb" data-tippy-content="{{ student.data.project_title }} &ndash; {{ student.data.student_name }}" href="{{ student.url }}"><img id="img" src="{{ student.data.main_image }}" alt=""></a>
             <p>{{ student.data.project_title }}</p>
             <p>{{ student.data.student_name }}</p>
           </div>
@@ -58,7 +58,7 @@
         <div class="student">
           {% for student in collections.autonomousContext %}
           <div class="student-student">
-            <a class="student-thumb" href="{{ student.url }}"><img id="img" src="{{ student.data.main_image }}" alt=""></a>
+            <a class="student-thumb" data-tippy-content="{{ student.data.project_title }} &ndash; {{ student.data.student_name }}" href="{{ student.url }}"><img id="img" src="{{ student.data.main_image }}" alt=""></a>
             <p>{{ student.data.project_title }}</p>
             <p>{{ student.data.student_name }}</p>
           </div>
@@ -71,7 +71,7 @@
         <div class="student">
           {% for student in collections.appliedContext %}
           <div class="student-student">
-            <a class="student-thumb" href="{{ student.url }}"><img id="img" src="{{ student.data.main_image }}" alt=""></a>
+            <a class="student-thumb" data-tippy-content="{{ student.data.project_title }} &ndash; {{ student.data.student_name }}" href="{{ student.url }}"><img id="img" src="{{ student.data.main_image }}" alt=""></a>
             <p>{{ student.data.project_title }}</p>
             <p>{{ student.data.student_name }}</p>
           </div>
@@ -84,7 +84,7 @@
         <div class="student">
           {% for student in collections.sociopoliticalContext %}
           <div class="student-student">
-            <a class="student-thumb" href="{{ student.url }}"><img id="img" src="{{ student.data.main_image }}" alt=""></a>
+            <a class="student-thumb" data-tippy-content="{{ student.data.project_title }} &ndash; {{ student.data.student_name }}" href="{{ student.url }}" ><img id="img" src="{{ student.data.main_image }}"></a>
             <p>{{ student.data.project_title }}</p>
             <p>{{ student.data.student_name }}</p>
           </div>
