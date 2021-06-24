@@ -157,6 +157,10 @@ a.home {
   padding-left: 25px;
 }
 
+.page-text-brood {
+  padding: 25px;
+}
+
 /* #text {
   padding: 25px;
   font-size: 2rem;
@@ -169,8 +173,19 @@ a.home {
 }
 
 @media screen and (min-width: 768px) {
+  /* PROGRESS-PAGE */
   .img-progress {
     display: none;
+  }
+
+  /* GROUP & STUDENT PAGE */
+  header {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #inner-intro {
+    max-width: 25vw;
   }
 
   .students {
@@ -214,5 +229,17 @@ a.home {
     display: block;
     transform: scale(1.5);
     padding-top: 100px;
+  }
+
+  /* STUDENT-PAGE */
+  .student-page {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .page-img {
+    max-width: 65vw;
+    width: 100%;
+    height: auto;
   }
 }
