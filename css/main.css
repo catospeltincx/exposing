@@ -151,6 +151,10 @@ aside {
     display: none;
   }
 
+  body {
+    padding: 25px;
+  }
+
   .students {
     display: grid;
     column-gap: 25px;
@@ -159,7 +163,6 @@ aside {
     overflow-y: scroll;
     height: 100vh;
     width: 100vw;
-    padding: 25px;
   }
 
   .student {
@@ -185,5 +188,19 @@ aside {
 
   .student-student {
     padding-bottom: 2.5rem;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    padding: 25px 0 0 0;
+  }
+
+  .logo {
+    width: 12vw;
+  }
+
+  .contact {
+    padding-left: 25px;
   }
 }
