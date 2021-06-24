@@ -44,49 +44,54 @@
         <div class="student">
           {% for student in collections.digitalContext %}
           <div class="student-student">
-            <a class="student-thumb" href="{{ student.url }}"><img src="{{ student.data.main_image }}" alt=""></a>
+            <a class="student-thumb" href="{{ student.url }}"><img id="img" src="{{ student.data.main_image }}" alt=""></a>
             <p>{{ student.data.project_title }}</p>
             <p>{{ student.data.student_name }}</p>
           </div>
           {% endfor %}
         </div>
-        
       </div>
 
 
       <div class="autonomous">
         <h2 class="context" >Autonomous Context</h2> 
-        {% for student in collections.autonomousContext %}
-        <div class="student-student">
-          <a class="student-thumb" href="{{ student.url }}"><img src="{{ student.data.main_image }}" alt=""></a>
-          <p>{{ student.data.project_title }}</p>
-          <p>{{ student.data.student_name }}</p>
+        <div class="student">
+          {% for student in collections.autonomousContext %}
+          <div class="student-student">
+            <a class="student-thumb" href="{{ student.url }}"><img id="img" src="{{ student.data.main_image }}" alt=""></a>
+            <p>{{ student.data.project_title }}</p>
+            <p>{{ student.data.student_name }}</p>
+          </div>
+          {% endfor %}
         </div>
-        {% endfor %}
       </div>
        
       <div class="applied">
         <h2 class="context" >Applied Context</h2>
-        {% for student in collections.appliedContext %}
-        <div class="student-student">
-          <a class="student-thumb" href="{{ student.url }}"><img src="{{ student.data.main_image }}" alt=""></a>
-          <p>{{ student.data.project_title }}</p>
-          <p>{{ student.data.student_name }}</p>
+        <div class="student">
+          {% for student in collections.appliedContext %}
+          <div class="student-student">
+            <a class="student-thumb" href="{{ student.url }}"><img id="img" src="{{ student.data.main_image }}" alt=""></a>
+            <p>{{ student.data.project_title }}</p>
+            <p>{{ student.data.student_name }}</p>
+          </div>
+          {% endfor %}
         </div>
-        {% endfor %}
       </div>
 
       <div class="sociopolitical">
         <h2 class="context" >Socio-Political Context</h2>
-        {% for student in collections.sociopoliticalContext %}
-        <div class="student-student">
-          <a class="student-thumb" href="{{ student.url }}"><img src="{{ student.data.main_image }}" alt=""></a>
-          <p>{{ student.data.project_title }}</p>
-          <p>{{ student.data.student_name }}</p>
+        <div class="student">
+          {% for student in collections.sociopoliticalContext %}
+          <div class="student-student">
+            <a class="student-thumb" href="{{ student.url }}"><img id="img" src="{{ student.data.main_image }}" alt=""></a>
+            <p>{{ student.data.project_title }}</p>
+            <p>{{ student.data.student_name }}</p>
+          </div>
+          {% endfor %}
         </div>
-        {% endfor %}
       </div>
-      </div>
+      
       
         <!-- <div class="student">
           {% for student in collections.students %}
