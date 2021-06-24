@@ -155,10 +155,11 @@ aside {
     display: grid;
     column-gap: 25px;
     grid-auto-flow: column;
-    grid-template-columns: 18vw;
+    grid-template-columns: 24vw;
     overflow-y: scroll;
     height: 100vh;
     width: 100vw;
+    padding: 25px;
   }
 
   .student {
@@ -166,12 +167,12 @@ aside {
   }
 
   img {
-    max-width: 25vw;
+    max-width: 24vw;
     height: auto;
   }
 
   h2.context {
-    width: 25vw;
+    width: 24vw;
   }
 
   .digital,
@@ -182,7 +183,7 @@ aside {
     flex-direction: column;
   }
 
-  .digital {
-    padding-left: 9px;
+  .student-student {
+    padding-bottom: 2.5rem;
   }
 }
