@@ -47,6 +47,7 @@ a.home {
 .tippy-box {
   background: none;
   border-radius: none;
+  display: none;
 }
 
 .tippy-arrow {
@@ -202,5 +203,11 @@ aside {
 
   .contact {
     padding-left: 25px;
+  }
+
+  .tippy-box {
+    display: block;
+    transform: scale(2);
+    padding-top: 100px;
   }
 }
