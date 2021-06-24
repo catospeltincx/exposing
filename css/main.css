@@ -75,10 +75,10 @@ a.home {
 /* Group Page */
 /* Hamburger Menu*/
 a.icon {
-  background: rgb(0, 0, 0);
-  position: absolute;
-  right: 0;
-  top: 0;
+  background: rgb(91, 73, 73);
+  color: aqua;
+  width: 100vw;
+  padding: 0 45vw;
 }
 
 /* Header */
@@ -88,6 +88,7 @@ header {
   top: 0;
   width: 100vw;
   background-color: rgb(255, 255, 255);
+  padding: 25px;
 }
 
 header #inner-intro {
@@ -96,7 +97,6 @@ header #inner-intro {
 
 h1 {
   line-height: 2.5rem;
-  font-family: Sequel45;
 }
 
 #inner-intro {
@@ -106,7 +106,6 @@ h1 {
 #inner-intro h2 {
   color: rgb(0, 0, 0);
   font-size: 1.2rem;
-  font-family: Sequel45;
 }
 
 /* BODY */
@@ -121,9 +120,8 @@ h1 {
   flex-direction: row;
 }
 
-h2.context {
+h3.context {
   width: 100vw;
-  font-size: 2rem;
 }
 
 .digital,
@@ -151,11 +149,10 @@ footer {
   display: flex;
   flex-direction: row;
   padding: 25px;
-  max-height: 150px;
 }
 
 .logo {
-  width: 150px;
+  max-width: 100px;
   height: auto;
 }
 
@@ -170,13 +167,13 @@ footer {
 
   .students {
     display: grid;
-    column-gap: 25px;
+    column-gap: 15px;
     grid-auto-flow: column;
-    grid-template-columns: 24vw;
-    overflow-y: scroll;
+    grid-template-columns: 25vw;
+    /* overflow-y: scroll; */
     height: 100vh;
     width: 100vw;
-    padding: 25px;
+    padding: 15px;
   }
 
   .student {
@@ -184,12 +181,12 @@ footer {
   }
 
   img {
-    max-width: 24vw;
+    max-width: 25vw;
     height: auto;
   }
 
-  h2.context {
-    width: 24vw;
+  h3.context {
+    width: 25vw;
   }
 
   .digital,
@@ -198,6 +195,7 @@ footer {
   .sociopolitical {
     display: flex;
     flex-direction: column;
+    overflow: inherit;
   }
 
   .student-student {
@@ -206,7 +204,7 @@ footer {
 
   .tippy-box {
     display: block;
-    transform: scale(2);
+    transform: scale(1.5);
     padding-top: 100px;
   }
 }

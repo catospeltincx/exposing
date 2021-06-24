@@ -10,7 +10,6 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Sint Lucas Masters" />
     <meta property="og:image" content="" />
-
     <link rel="stylesheet" href="/css/main.css" />
     <script
       src="https://kit.fontawesome.com/a076d05399.js"
@@ -19,8 +18,13 @@
   </head>
   <body>
     <header>
-      <h1>Sint Lucas Masters &mdash; <mark>Practise Practice</mark></h1>
-
+      <h1>Sint Lucas Masters &mdash;</h1>
+      <h1><mark>Practise Practice</mark></h1>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <!-- <i class="fas fa-horse fa-rotate-270"></i> -->
+        <i class="fas fa-circle"></i>
+        <p>info</p>
+      </a>
       <div id="inner-intro">
         <h2>
           Practise Practice, 26.06 &mdash; 04.06.2021, everyday from 13h &mdash;
@@ -28,16 +32,12 @@
           2018 Antwerpen, Nocturne 01.06 from 18h &mdash; 21h
         </h2>
       </div>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <!-- <i class="fas fa-horse fa-rotate-270"></i> -->
-        <i class="fas fa-circle"></i>
-      </a>
     </header>
 
     <main>
       <div class="students">
         <div class="digital">
-          <h2 class="context">Digital Context</h2>
+          <h3 class="context">Digital Context</h3>
           <div class="student">
             {% for student in collections.digitalContext %}
             <div class="student-student">
@@ -57,7 +57,7 @@
         </div>
 
         <div class="autonomous">
-          <h2 class="context">Autonomous Context</h2>
+          <h3 class="context">Autonomous Context</h3>
           <div class="student">
             {% for student in collections.autonomousContext %}
             <div class="student-student">
@@ -77,7 +77,7 @@
         </div>
 
         <div class="applied">
-          <h2 class="context">Applied Context</h2>
+          <h3 class="context">Applied Context</h3>
           <div class="student">
             {% for student in collections.appliedContext %}
             <div class="student-student">
@@ -97,7 +97,7 @@
         </div>
 
         <div class="sociopolitical">
-          <h2 class="context">Socio-Political Context</h2>
+          <h3 class="context">Socio-Political Context</h3>
           <div class="student">
             {% for student in collections.sociopoliticalContext %}
             <div class="student-student">
@@ -164,13 +164,13 @@
         followCursor: true,
       });
     </script>
+    <footer>
+      <img class="logo" src="/images/sla-logo.png" />
+      <div class="contact">
+        <a href="https://www.sintlucasantwerpen.be/">Sint Lucas Antwerpen</a>
+        <p>Van Schoonbekestraat 143</p>
+        <p>2018 Antwerpen</p>
+      </div>
+    </footer>
   </body>
-  <footer>
-    <img class="logo" src="/images/sla-logo.png" />
-    <div class="contact">
-      <a href="https://www.sintlucasantwerpen.be/">Sint Lucas Antwerpen</a>
-      <p>Van Schoonbekestraat 143</p>
-      <p>2018 Antwerpen</p>
-    </div>
-  </footer>
 </html>
