@@ -67,37 +67,27 @@ header {
   width: 100vw;
   background-color: rgb(255, 255, 255);
   padding: 25px;
+  max-width: 100vw;
 }
 
 h1 {
-  line-height: 2.5rem;
+  font-size: 1.5rem;
 }
 
 mark {
   font-family: PracPracRegular;
-  font-size: 4rem;
+  font-size: 3rem;
   background: none;
-  line-height: 4.5rem;
+  line-height: 3rem;
 }
 
 header #inner-intro {
   display: none;
 }
 
-#inner-intro {
-  padding: 15px 0 15px 0;
-}
-
 #inner-intro h2 {
   color: rgb(0, 0, 0);
-  font-size: 1.2rem;
-}
-
-a.icon {
-  background: rgb(91, 73, 73);
-  color: aqua;
-  width: 100vw;
-  padding: 0 45vw;
+  max-width: 100vw;
 }
 
 /* BODY */
