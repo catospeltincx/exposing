@@ -155,9 +155,10 @@ aside {
     display: grid;
     column-gap: 25px;
     grid-auto-flow: column;
-    grid-template-columns: 25vw 25vw 25vw 25vw;
+    grid-template-columns: 18vw;
     overflow-y: scroll;
     height: 100vh;
+    width: 100vw;
   }
 
   .student {
@@ -173,10 +174,6 @@ aside {
     width: 25vw;
   }
 
-  p {
-    display: none;
-  }
-
   .digital,
   .autonomous,
   .applied,
@@ -185,9 +182,7 @@ aside {
     flex-direction: column;
   }
 
-  data-tippy-content {
-    z-index: 1;
-    font-size: 50px;
-    color: rgb(0, 255, 170);
+  .digital {
+    padding-left: 9px;
   }
 }
