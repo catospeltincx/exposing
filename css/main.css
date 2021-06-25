@@ -12,6 +12,11 @@ body {
 }
 
 @font-face {
+  font-family: Kanal;
+  src: url(/fonts/Kanalisirung.otf);
+}
+
+@font-face {
   font-family: Sequel45;
   src: url(/fonts/OGJ\ Type\ Design\ -\ Sequel\ 100\ Black\ 45.ttf);
 }
@@ -27,6 +32,11 @@ h3 {
   text-decoration: none;
   margin: 0;
   padding: 0;
+}
+
+mark {
+  background-color: white;
+  font-style: italic;
 }
 
 img {
@@ -72,14 +82,13 @@ header {
   max-width: 100vw;
 }
 
-.title-1 {
+.title {
   font-size: 3.5rem;
   font-family: "PracPrac";
 }
 
-.title-2 {
+.intro {
   font-size: 1.5rem;
-  line-height: 2rem;
   font-family: "Archivo Narrow", sans-serif;
 }
 
@@ -100,14 +109,21 @@ header {
 }
 
 a.title-name {
+  font-family: "Archivo Narrow", sans-serif;
   padding-left: 1.5rem;
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+}
+
+a.title-name:hover {
+  color: rgb(0, 123, 255);
 }
 
 p.context {
   font-size: 1.5rem;
   width: 100vw;
-  padding: 0 0 1rem 1rem;
-  font-family: "Archivo Narrow", sans-serif;
+  padding: 1rem 0 1rem 1rem;
+  font-family: "Kanal";
 }
 
 .digital,
@@ -216,6 +232,10 @@ a.home {
 
   .student-student {
     padding-bottom: 5rem;
+    padding-left: 0;
+  }
+
+  a.title-name {
     padding-left: 0;
   }
 

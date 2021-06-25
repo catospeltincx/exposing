@@ -14,15 +14,9 @@
   </head>
   <body>
     <header>
-      <div class="titles">
-        <p class="title-1">Practise Practice</p>
-        <p class="title-2">Sint Lucas Antwerpen Masters</p>
-      </div>
-      <div class="intro">
-        <p>
-          Practise Practice, 26.06 &mdash; 04.06.2021, everyday from 13h &mdash;
-          17h, Masters expo at Sint Lucas Antwerpen, Van Schoonbekestraat 143,
-          2018 Antwerpen, Nocturne 01.06 from 18h &mdash; 21h
+        <p class="title" >Practise Practice</>
+        <p class="intro">
+          A summary of all graduating master projects of Sint Lucas Antwerpen
         </p>
       </div>
     </header>
@@ -41,7 +35,7 @@
                 ><img id="img" src="{{ student.data.main_image }}" alt=""
               /></a>
               <a class="title-name" href="{{ student.url }}">
-                {{ student.data.project_title }} &mdash; {{
+                <mark>{{ student.data.project_title }} &mdash;</mark>  {{
                 student.data.student_name }}
               </a>
             </div>
@@ -61,7 +55,7 @@
                 ><img id="img" src="{{ student.data.main_image }}" alt=""
               /></a>
               <a class="title-name" href="{{ student.url }}">
-                {{ student.data.project_title }} &mdash; {{
+                <mark>{{ student.data.project_title }} &mdash;</mark> {{
                 student.data.student_name }}
               </a>
             </div>
@@ -81,7 +75,7 @@
                 ><img id="img" src="{{ student.data.main_image }}" alt=""
               /></a>
               <a class="title-name" href="{{ student.url }}">
-                {{ student.data.project_title }} &mdash; {{
+                <mark>{{ student.data.project_title }} &mdash;</mark> {{
                 student.data.student_name }}
               </a>
             </div>
@@ -101,7 +95,7 @@
                 ><img id="img" src="{{ student.data.main_image }}"
               /></a>
               <a class="title-name" href="{{ student.url }}">
-                {{ student.data.project_title }} &mdash; {{
+                <mark>{{ student.data.project_title }} &mdash;</mark> {{
                 student.data.student_name }}
               </a>
             </div>
