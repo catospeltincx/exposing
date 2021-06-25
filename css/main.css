@@ -68,14 +68,18 @@ header {
 }
 
 .title {
-  font-size: 3.5rem;
+  font-size: 5rem;
   font-family: "PracPrac";
-  margin-top: 2rem;
 }
 
 .intro {
   font-size: 1.5rem;
   font-family: "Times";
+  padding: 1.5rem 0 0 7rem;
+}
+
+.arrow {
+  color: red;
 }
 
 /* BODY */
@@ -110,7 +114,7 @@ p.context {
   font-size: 1.5rem;
   width: fit-content;
   background-color: black;
-  color: white;
+  color: rgb(0, 255, 166);
   border: dotted yellow;
   border-width: thick;
   margin: 0 0 1.5rem 1.5rem;
@@ -163,6 +167,11 @@ a.home {
   margin: 4rem 1.5rem 0 0rem;
 }
 
+.page-title {
+  font-family: "Archivo Narrow", sans-serif;
+  padding-left: 1.5rem;
+}
+
 .page-text {
   padding-left: 1.5rem;
 }
@@ -194,8 +203,13 @@ a.home {
     flex-direction: row;
   }
 
-  p.title {
+  .title {
     font-size: 5rem;
+    padding-right: 1rem;
+  }
+
+  .arrow {
+    display: none;
   }
 
   .students {
