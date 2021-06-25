@@ -11,16 +11,6 @@ body {
   src: url(/fonts/PracPracRegular.woff2);
 }
 
-@font-face {
-  font-family: Kanal;
-  src: url(/fonts/Kanalisirung.otf);
-}
-
-@font-face {
-  font-family: Sequel45;
-  src: url(/fonts/OGJ\ Type\ Design\ -\ Sequel\ 100\ Black\ 45.ttf);
-}
-
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap");
 
 p,
@@ -74,12 +64,7 @@ img {
 /* GROUP & STUDENT-PAGE */
 /* Header */
 header {
-  left: 0;
-  top: 0;
-  width: 100vw;
-  background-color: rgb(255, 255, 255);
   padding: 1.5rem;
-  max-width: 100vw;
 }
 
 .title {
@@ -89,7 +74,7 @@ header {
 
 .intro {
   font-size: 1.5rem;
-  font-family: "Archivo Narrow", sans-serif;
+  font-family: "Times";
 }
 
 /* BODY */
@@ -120,10 +105,14 @@ a.title-name:hover {
 }
 
 p.context {
+  font-family: "Archivo Narrow", sans-serif;
   font-size: 1.5rem;
-  width: 100vw;
-  padding: 1rem 0 1rem 1rem;
-  font-family: "Kanal";
+  width: fit-content;
+  background-color: black;
+  color: white;
+  border: dotted yellow;
+  border-width: thick;
+  margin-bottom: 1.5rem;
 }
 
 .digital,
@@ -195,6 +184,10 @@ a.home {
     flex-direction: row;
   }
 
+  p.title {
+    font-size: 5rem;
+  }
+
   .students {
     display: grid;
     grid-auto-flow: column;
@@ -213,8 +206,8 @@ a.home {
   }
 
   p.context {
-    width: 20vw;
-    padding-left: 0;
+    width: fit-content;
+    padding: 0.5rem;
   }
 
   .digital,
