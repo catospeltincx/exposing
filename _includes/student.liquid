@@ -15,10 +15,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <link rel="stylesheet" href="/css/main.css" />
-        <script
-      src="https://kit.fontawesome.com/a076d05399.js"
-      crossorigin="anonymous"
-    ></script>
   </head>
     <body>
     <header>
@@ -28,10 +24,7 @@
         <h1>Sint Lucas Antwerpen Masters</h1>
       </div>
 
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <p>info</p>
-      </a>
-            <div id="inner-intro">
+            <div class="intro">
         <p >
           Practise Practice, 26.06 &mdash; 04.06.2021, everyday from 13h &mdash;
           17h, Masters expo at Sint Lucas Antwerpen, Van Schoonbekestraat 143,
@@ -61,7 +54,7 @@
 
       <script>      //hamburger button
       function myFunction() {
-        var x = document.getElementById("inner-intro");
+        var x = document.getElementById("intro");
         if (x.style.display === "block") {
           x.style.display = "none";
         } else {

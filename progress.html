@@ -11,21 +11,14 @@
     <meta property="og:title" content="Sint Lucas Masters" />
     <meta property="og:image" content="" />
     <link rel="stylesheet" href="/css/main.css" />
-    <script
-      src="https://kit.fontawesome.com/a076d05399.js"
-      crossorigin="anonymous"
-    ></script>
   </head>
   <body>
     <header>
       <div class="titles">
-        <h1><mark>Practise Practice</mark></h1>
-        <h1>Sint Lucas Antwerpen Masters</h1>
+        <p class="title-1">Practise Practice</p>
+        <p class="title-2">Sint Lucas Antwerpen Masters</p>
       </div>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <p>info</p>
-      </a>
-      <div id="inner-intro">
+      <div class="intro">
         <p>
           Practise Practice, 26.06 &mdash; 04.06.2021, everyday from 13h &mdash;
           17h, Masters expo at Sint Lucas Antwerpen, Van Schoonbekestraat 143,
@@ -37,7 +30,7 @@
     <main>
       <div class="students">
         <div class="digital">
-          <h3 class="context">Digital Context</h3>
+          <p class="context">Digital Context</p>
           <div class="student">
             {% for student in collections.digitalContext %}
             <div class="student-student">
@@ -47,7 +40,7 @@
                 href="{{ student.url }}"
                 ><img id="img" src="{{ student.data.main_image }}" alt=""
               /></a>
-              <a href="{{ student.url }}">
+              <a class="title-name" href="{{ student.url }}">
                 {{ student.data.project_title }} &mdash; {{
                 student.data.student_name }}
               </a>
@@ -57,7 +50,7 @@
         </div>
 
         <div class="autonomous">
-          <h3 class="context">Autonomous Context</h3>
+          <p class="context">Autonomous Context</p>
           <div class="student">
             {% for student in collections.autonomousContext %}
             <div class="student-student">
@@ -67,17 +60,17 @@
                 href="{{ student.url }}"
                 ><img id="img" src="{{ student.data.main_image }}" alt=""
               /></a>
-              <p>
+              <a class="title-name" href="{{ student.url }}">
                 {{ student.data.project_title }} &mdash; {{
                 student.data.student_name }}
-              </p>
+              </a>
             </div>
             {% endfor %}
           </div>
         </div>
 
         <div class="applied">
-          <h3 class="context">Applied Context</h3>
+          <p class="context">Applied Context</p>
           <div class="student">
             {% for student in collections.appliedContext %}
             <div class="student-student">
@@ -87,17 +80,17 @@
                 href="{{ student.url }}"
                 ><img id="img" src="{{ student.data.main_image }}" alt=""
               /></a>
-              <p>
+              <a class="title-name" href="{{ student.url }}">
                 {{ student.data.project_title }} &mdash; {{
                 student.data.student_name }}
-              </p>
+              </a>
             </div>
             {% endfor %}
           </div>
         </div>
 
         <div class="sociopolitical">
-          <h3 class="context">Socio-Political Context</h3>
+          <p class="context">Socio-Political Context</p>
           <div class="student">
             {% for student in collections.sociopoliticalContext %}
             <div class="student-student">
@@ -107,10 +100,10 @@
                 href="{{ student.url }}"
                 ><img id="img" src="{{ student.data.main_image }}"
               /></a>
-              <p>
+              <a class="title-name" href="{{ student.url }}">
                 {{ student.data.project_title }} &mdash; {{
                 student.data.student_name }}
-              </p>
+              </a>
             </div>
             {% endfor %}
           </div>
@@ -140,7 +133,7 @@
     <script>
       //hamburger button
       function myFunction() {
-        var x = document.getElementById("inner-intro");
+        var x = document.getElementById("intro");
         if (x.style.display === "block") {
           x.style.display = "none";
         } else {
