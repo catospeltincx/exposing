@@ -5,11 +5,10 @@ context: Autonomous Context
 year: 2020—2021
 main_image: /images/dd.jpg
 bio: >-
-  I have been privileged as the majority in the Korean society. I never had the
-  identity as an Asian. I was only female. Since I moved to Europe I became
-  "Asian" and "woman".   The extra tag led me to face racial problems. Asian
-  women are submissive and voiceless. Asian men are forever asexual. But am I?
-  Are we? 
+  I never had the identity as an Asian. I was only female. Since I moved to
+  Europe I became "Asian" and "woman".   The extra tag led me to face racial
+  problems. Asian women are submissive and voiceless. Asian men are forever
+  asexual. But am I? Are we? 
 
 
   There are many discourses over racial issues these days but Asians have always been marginalized in the topic. The way the West illustrates the East has not been changed for centuries. It is not even problematic. It is just regarded  as "cliche". 
