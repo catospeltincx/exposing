@@ -3,7 +3,7 @@ student_name: Aimé Fierens
 project_title: Der Fetischismus des Künstlers
 context: Autonomous Context
 year: 2020—2021
-main_image: /images/websitecover.jpg
+main_image: /images/websitecoversmall.jpg
 bio: Mijn werk vertrekt vanuit de wisselwerking tussen het zien en niet-zien,
   het wel of niet-tonen, het ‘censureren’ van beelden. Zo ontstaat er een spel
   tussen het begrippenkader van de beeldende kunst en de hedendaagse conditie,
@@ -24,9 +24,9 @@ bio: Mijn werk vertrekt vanuit de wisselwerking tussen het zien en niet-zien,
   referenties te vertolken en een weg te banen doorheen het monoliet van beelden
   waarmee we vandaag de dag overspoeld worden.
 images:
-  - /images/website1.jpg
-  - /images/website2.jpg
-  - /images/website3.jpg
+  - /images/website1small.jpg
+  - /images/website2small.jpg
+  - /images/website3small.jpg
 social_links:
   - https://www.instagram.com/aesthetic_defecation/
 ---
