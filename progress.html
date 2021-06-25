@@ -47,10 +47,10 @@
                 href="{{ student.url }}"
                 ><img id="img" src="{{ student.data.main_image }}" alt=""
               /></a>
-              <p>
+              <a href="{{ student.url }}">
                 {{ student.data.project_title }} &mdash; {{
                 student.data.student_name }}
-              </p>
+              </a>
             </div>
             {% endfor %}
           </div>
