@@ -9,12 +9,9 @@ bio: >-
   identity as an Asian. I was only female. Since I moved to Europe I became
   "Asian" and "woman".   The extra tag led me to face racial problems. Asian
   women are submissive and voiceless. Asian men are forever asexual. But am I?
-  Are we? There are layers around me that I don't see from myself but others do.
-  It might be annoying thing for some people but I witnessed the transition that
-  mocking/racial joking became actual physical attacks against Asian. I already
-  knew it would happen.  Because the objectification have been the threatening
-  to the minority.
-   
+  Are we? 
+
+
   There are many discourses over racial issues these days but Asians have always been marginalized in the topic. The way the West illustrates the East has not been changed for centuries. It is not even problematic. It is just regarded  as "cliche". 
 
   --------------------------
