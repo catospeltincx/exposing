@@ -11,6 +11,11 @@ body {
   src: url(/fonts/PracPracRegular.woff2);
 }
 
+@font-face {
+  font-family: Sequel;
+  src: url(/fonts/OGJ\ Type\ Design\ -\ Sequel\ 100\ Black\ 45.ttf);
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap");
 
 p,
@@ -73,8 +78,8 @@ header {
 }
 
 .intro {
-  font-size: 1.5rem;
-  font-family: "Times";
+  font-size: 1rem;
+  font-family: Sequel;
   padding: 1.5rem 0 0 7rem;
 }
 
@@ -110,12 +115,13 @@ a.title-name:hover {
 }
 
 p.context {
-  font-family: "Archivo Narrow", sans-serif;
+  font-family: Sequel;
   font-size: 1.5rem;
   width: fit-content;
   background-color: black;
-  color: rgb(0, 255, 166);
-  border: dotted yellow;
+  /* color: rgb(0, 255, 166);
+  border: dotted yellow; */
+  color: white;
   border-width: thick;
   margin: 0 0 1.5rem 1.5rem;
 }
@@ -215,9 +221,13 @@ a.home {
   .students {
     display: grid;
     grid-auto-flow: column;
-    column-gap: 5vw;
-    grid-template-columns: 20vw 20vw 20vw 20vw;
+    column-gap: 4vw;
+    grid-template-columns: auto;
     overflow-y: scroll;
+  }
+
+  main {
+    margin: 0 4vw 0 4vw;
   }
 
   .student {
@@ -243,10 +253,6 @@ a.home {
     flex-direction: column;
     overflow: inherit;
   }
-
-  /* .digital {
-    padding-left: 5vw;
-  } */
 
   .student-student {
     padding-bottom: 5rem;
