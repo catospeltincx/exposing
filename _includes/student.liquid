@@ -18,7 +18,7 @@
   </head>
     <body>
     <header>
-      <div class="home"><a href="/progress" class="home" >&#10594;</a></div>
+      <div class="home"><a href="/progress" class="home" >&#10594; all projects</a></div>
         <div class="page-titles">
           <p class="page-title">Practise</p>
           <p class="page-title">Practice</p>
@@ -35,11 +35,11 @@
           <p class="page-text-brood" >{{ bio }}</p>
           <img class="page-img" src="{{ main_image }}"/>
           <p class="page-project" ><mark>{{ project_title }}</mark></p>
-
+          <p class="page-text-brood">{{ content }}</p>
           {% for image in images %}
           <img class="page-img" src="{{ image }}" alt="" />
           {% endfor %}
-          <p class="page-text-brood">{{ content }}</p>
+          
           {% for link in social_links %}
           <a class="social_links" target="_blank" href="{{ link }}">{{ link }}</a>
           {% endfor %}
