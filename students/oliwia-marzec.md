@@ -4,7 +4,7 @@ project_title: The Geogrids
 context: Applied Context
 year: 2020-2021
 main_image: /images/oliwia_m_7
-bio: "Oliwia Marzec (°98) is a Polish born Belgian raised designer and is
+bio: "Oliwia Marzec (°1998) is a Polish born Belgian raised designer and is
   researching her own artistic practice within graphic- and editorial design.
   Fascinated by technology in the digital age, she likes to research her
   self-taught code language and how a few numbers and certain characters can be
