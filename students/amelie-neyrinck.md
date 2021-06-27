@@ -9,6 +9,6 @@ bio: "I am a graphic design student who's main interest lies within branding.
   often take an activist approach within my work, where I point out certain
   issues within our society that I want to highlight. "
 images:
-  - /images/website2.jpg
+  - /images/website1.2.jpg
 ---
 What if branding was honest? Companies often misuse branding to hide unethical practices, in order to win over the general public. 'Brandtopia' is a manifesto that calls that into question by giving 3 unethical brands an honest re-branding. The companies in question are; BP, FN Herstal and Nestlé.
