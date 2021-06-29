@@ -160,18 +160,28 @@ p.context {
 
 /* FOOTER */
 footer {
+  padding: 25px;
   display: flex;
   flex-direction: row;
-  padding: 25px;
 }
 
 .logo {
-  max-width: 100px;
-  height: auto;
+  width: auto;
+  max-height: 100px;
 }
 
 .contact {
   padding-left: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sla-link {
+  font-family: Sequel;
+}
+
+p.contact {
+  font-family: Sequel;
 }
 
 /* STUDENT-PAGE */
