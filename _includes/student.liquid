@@ -18,29 +18,31 @@
   </head>
     <body>
     <header>
-      <div class="home"><a href="/progress" class="home" >&#10594; all projects</a></div>
-        <div class="page-titles">
-          <p class="page-title">Practise</p>
-          <p class="page-title">Practice</p>
-        </div>
-    </header>
-    <main>
-        <div class="page-student">
-          <div class="context-year">
+      <div class="home"><a href="/progress" class="home" >&#10229; all projects</a></div>
+      <div class="context-year">
             <p class="page-year" > {{ year }} </p>
             <p class="page-context" > {{ context }} </p>
           </div>
+  
+    </header>
+    <main>
+        <div class="page-student">
+          
           <p class="page-name" >{{ student_name }}</p>
+          <p class="page-project" ><mark>{{ project_title }}</mark></p>
           <p class="page-bio"><mark>bio</mark></p>
           <p class="page-text-brood" >{{ bio }}</p>
           <img class="page-img" src="{{ main_image }}"/>
-          <p class="page-project" ><mark>{{ project_title }}</mark></p>
+          <p class="page-bio"><mark>project description</mark></p>
           <p class="page-text-brood">{{ content }}</p>
+          </br>
+          </br>
           {% for image in images %}
           <img class="page-img" src="{{ image }}" alt="" />
           {% endfor %}
           
           {% for link in social_links %}
+          <p class="page-bio"><mark>social links</mark></p>
           <a class="social_links" target="_blank" href="{{ link }}">{{ link }}</a>
           {% endfor %}
         </div>
