@@ -11,10 +11,10 @@ bio: "Oliwia Marzec (°1998) is a Polish born Belgian raised designer and is
   used to translate into numerous expressions in different art- and design
   disciplines. "
 images:
-  - /images/oliwia_m_6
-  - /images/oliwia_m_4
-  - /images/oliwia_m_5
-  - /images/oliwia_m_3
+  - /images/oliwia_m_6_x.png
+  - /images/oliwia_m_4_x.png
+  - /images/oliwia_m_5._x.png
+  - /images/oliwia_m_3_x.png
   - /images/oliwia_m_2
   - /images/oliwia_m_1
 social_links:
