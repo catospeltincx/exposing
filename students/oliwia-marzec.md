@@ -21,5 +21,6 @@ social_links:
   - https://oliwia.webflow.io
   - https://www.instagram.com/ikkandatniet
   - https://www.instagram.com/oliwiamarzec
+  - https://www.behance.net/oliwiamarzec
 ---
 The Geogrids is a research around my personal artistic practice around how geometry and grids can be a basis for an art and design practice. Geometry and grids have been processed in various, innovative and legendary ways in history: from print and carpets to exhibitions and building blocks for kids. While living in the digital world, I wanted to show how I, as a designer and a digital artist, could evolve and translate my own creativity by code and graphic design and contribute to all my personal inspirations to my very own work.
