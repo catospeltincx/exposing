@@ -183,7 +183,7 @@ p.title {
 .intro {
   font-size: 1.3rem;
   font-family: Sequel;
-  margin: 0.5rem 0 3rem 2rem;
+  margin: 0.5rem 1.5rem 3rem 2rem;
   max-width: 40rem;
   position: relative;
 }
