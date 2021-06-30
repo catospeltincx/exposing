@@ -183,7 +183,7 @@ p.title {
 .intro {
   font-size: 1.3rem;
   font-family: Sequel;
-  margin: 0.5rem 1.5rem 3rem 2rem;
+  margin: 0.5rem 1.5rem 3rem 5.5rem;
   max-width: 40rem;
   position: relative;
 }
@@ -286,10 +286,11 @@ p.contact {
 
 /* STUDENT-PAGE */
 .page-year {
-  margin: 3rem -3rem 0 1.5rem;
+  margin: 3.5rem -3rem 0 1.5rem;
   font-family: "Archivo Narrow", sans-serif;
   font-size: 3rem;
   filter: drop-shadow(10px 5px 5px rgb(0, 255, 115));
+  max-width: fit-content;
 }
 
 .page-year:hover {
@@ -369,7 +370,6 @@ a.home {
 }
 
 .context-year {
-  margin-left: -1.5rem;
   display: flex;
   flex-direction: row;
 }
@@ -432,7 +432,7 @@ p {
   .contact-up {
     display: flex;
     flex-direction: column;
-    margin: -2.7rem 0 0 2rem;
+    margin: -1.5rem 0 0 2rem;
     font-size: 0.6rem;
   }
 
@@ -568,7 +568,7 @@ p {
 
   .page-year {
     margin-top: -1.3rem;
-    margin-left: 1rem;
+    margin-left: 3rem;
   }
 
   .page-name {
@@ -576,7 +576,7 @@ p {
   }
 
   .page-context {
-    margin: -0.5rem 0 0 -2rem;
+    margin: -0.5rem 0 0 5.5rem;
   }
 
   .page-img {
