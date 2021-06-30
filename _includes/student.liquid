@@ -27,13 +27,12 @@
     </header>
     <main>
         <div class="page-student">
-          
           <p class="page-name" >{{ student_name }}</p>
-          <p class="page-project" ><mark>{{ project_title }}</mark></p>
-          <p class="page-bio"><mark>bio</mark></p>
+          </br>
           <p class="page-text-brood" >{{ bio }}</p>
           <img class="page-img" src="{{ main_image }}"/>
-          <p class="page-bio"><mark>project description</mark></p>
+          
+          <p class="page-project">Graduation Project:</p><p class="page-project" ><mark>{{ project_title }}</mark></p>
           <p class="page-text-brood">{{ content }}</p>
           </br>
           </br>
@@ -41,9 +40,9 @@
           <img class="page-img" src="{{ image }}" alt="" />
           {% endfor %}
           
+          {% comment %} <p class="page-bio">social links</p> {% endcomment %}
           {% for link in social_links %}
-          <p class="page-bio"><mark>social links</mark></p>
-          <a class="social_links" target="_blank" href="{{ link }}">{{ link }}</a>
+          <div class="link-wrap"><a class="social_links" target="_blank" href="{{ link }}">{{ link }}</a></div>
           {% endfor %}
         </div>
       </main>
