@@ -128,10 +128,6 @@ header {
   visibility: hidden;
 }
 
-img.img-marquee {
-  max-height: 50px;
-}
-
 .break {
   padding-right: 35px;
   padding-left: 35px;
@@ -375,7 +371,7 @@ a.home {
 }
 
 .page-img {
-  width: 125vw;
+  width: 100vw;
   height: auto;
   margin: 0 0 1.5rem -0.5rem;
 }
