@@ -77,6 +77,17 @@ header {
   padding: 1.5rem 0 0 1.5rem;
 }
 
+.contact-up {
+  display: none;
+}
+
+.contact-up-2 {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem 0 0 0.5rem;
+  font-size: 0.75rem;
+}
+
 .marquee {
   /* visibility: hidden; */
   margin-left: -8px;
@@ -87,7 +98,7 @@ header {
   overflow: hidden;
   position: relative;
   /* background: #fefefe; */
-  background-color: darkorange;
+  background-color: rgb(255, 255, 255);
   /* border-top: 1px solid #4a4a4a;
   border-bottom: 1px solid #4a4a4a; */
   filter: drop-shadow(10px 10px 40px purple);
@@ -101,7 +112,7 @@ header {
   width: 100%;
   height: 50%;
   margin: 0;
-  line-height: 50px;
+  line-height: 60px;
   text-align: left;
   font-size: 0.8rem;
   font-family: Sequel;
@@ -178,7 +189,7 @@ p.title {
 }
 
 .arrow {
-  margin: -1.3rem 0 0 3.5rem;
+  margin: -1.3rem 0 1rem 3.5rem;
   font-size: 3rem;
   content: "\27F6";
 }
@@ -275,7 +286,7 @@ p.contact {
 
 /* STUDENT-PAGE */
 .page-year {
-  margin: 3rem 0 0 1.5rem;
+  margin: 3rem -3rem 0 1.5rem;
   font-family: "Archivo Narrow", sans-serif;
   font-size: 3rem;
   filter: drop-shadow(10px 5px 5px rgb(0, 255, 115));
@@ -287,7 +298,7 @@ p.contact {
 
 .page-name {
   font-family: Sequel;
-  margin: 1.5rem 0 0 -0.5rem;
+  margin: 1.5rem 0 0 0.1rem;
   font-size: 3rem;
 }
 
@@ -335,13 +346,13 @@ a.home {
 
 .page-context {
   font-family: Sequel;
-  font-size: 1.3rem;
+  font-size: 1rem;
   width: fit-content;
   height: fit-content;
   background-color: black;
   color: white;
   padding: 0.5rem;
-  margin: 2rem 0 0 1.5rem;
+  margin: 1.7rem 0 0 1.5rem;
 }
 
 .page-text {
@@ -358,6 +369,7 @@ a.home {
 }
 
 .context-year {
+  margin-left: -1.5rem;
   display: flex;
   flex-direction: row;
 }
@@ -386,8 +398,8 @@ p {
 .link-wrap {
   word-break: break-all;
   margin-right: 1.5rem;
-  font-size: 0.8rem;
-  margin-top: 4rem;
+  font-size: 0.9rem;
+  margin-top: 2rem;
 }
 
 .social_links:hover {
@@ -413,8 +425,20 @@ p {
     flex-direction: row;
   }
 
+  .contact-up-2 {
+    display: none;
+  }
+
+  .contact-up {
+    display: flex;
+    flex-direction: column;
+    margin: -2.7rem 0 0 2rem;
+    font-size: 0.6rem;
+  }
+
   .marquee {
     height: 100px;
+    background-color: rgb(232, 93, 18);
   }
 
   .marquee_inner_left {
@@ -544,6 +568,7 @@ p {
 
   .page-year {
     margin-top: -1.3rem;
+    margin-left: 1rem;
   }
 
   .page-name {
@@ -551,7 +576,7 @@ p {
   }
 
   .page-context {
-    margin: -0.5rem 0 0 3rem;
+    margin: -0.5rem 0 0 -2rem;
   }
 
   .page-img {
