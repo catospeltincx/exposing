@@ -3,7 +3,7 @@ student_name: Mertens Martijn
 project_title: Tumtu Market
 context: Applied Context
 year: 2020-2021
-main_image: /images/comp-1.gif
+main_image: /images/web-renders-6.jpg
 bio: Martijn M. Mertens is a Belgian brand identity designer and
   typographer.  He was born and raised in Brasschaat, Belgium.  He interned at
   Today Agency and Base Design, and worked as a graphic designer at Duval
@@ -12,19 +12,19 @@ bio: Martijn M. Mertens is a Belgian brand identity designer and
   or updates brand strategy and visual identity, and deals with plenty of other
   graphic design related inquiries.
 images:
-  - /images/web-renders-6.jpg
+  - /images/comp-1.gif
   - /images/web-renders-front.jpg
   - /images/fake-mockup-view-1.jpg
   - /images/web-renders-4.jpg
   - /images/fake-mock-3-view-2.jpg
   - /images/web-renders-2.jpg
 social_links:
-  - mmcreated.com
-  - behance.net/mmcreated
-  - twitter.com/mmcreated
-  - instagram.com/mmcreated
-  - facebook.com/mmcreated
-  - linkedin.com/in/mmcreated
+  - https://mmcreated.com
+  - https://behance.net/mmcreated
+  - https://twitter.com/mmcreated
+  - https://instagram.com/mmcreated
+  - https://facebook.com/mmcreated
+  - https://linkedin.com/in/mmcreated
 ---
 What am I looking at? You may find yourself asking this when navigating these shelves. Perchance the better question is; Do you know what you’re looking for?
 
