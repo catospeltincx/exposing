@@ -179,7 +179,7 @@ p.title {
 .intro {
   font-size: 1.3rem;
   font-family: Sequel;
-  margin: 0.5rem 1.5rem 3rem 5.5rem;
+  margin: 0.5rem 1.5rem 3rem 7rem;
   max-width: 40rem;
   position: relative;
 }
@@ -220,7 +220,7 @@ a.title-name:hover {
 
 p.context {
   font-family: Sequel;
-  font-size: 1.3rem;
+  font-size: 0.9rem;
   width: fit-content;
   background-color: black;
   /* color: rgb(0, 255, 166);
@@ -324,7 +324,7 @@ p.contact {
 
 a.home {
   font-family: sequel;
-  font-size: 1.3rem;
+  font-size: 1rem;
   width: fit-content;
   background-color: rgb(122, 0, 244);
   color: rgb(255, 0, 0);
@@ -368,6 +368,7 @@ a.home {
 .context-year {
   display: flex;
   flex-direction: row;
+  width: 1000px;
 }
 
 .page-img {
@@ -564,7 +565,7 @@ p {
 
   .page-year {
     margin-top: -1.3rem;
-    margin-left: 3rem;
+    margin-left: 2.2rem;
   }
 
   .page-name {
@@ -572,7 +573,7 @@ p {
   }
 
   .page-context {
-    margin: -0.5rem 0 0 5.5rem;
+    margin: -0.5rem 0 0 6.6rem;
   }
 
   .page-img {
