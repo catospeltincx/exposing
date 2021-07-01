@@ -511,6 +511,7 @@ p {
     column-gap: 4vw;
     grid-template-columns: auto;
     overflow-y: scroll;
+    margin-top: 2rem;
   }
 
   main {
