@@ -591,4 +591,8 @@ p {
   a.home {
     margin: 15px;
   }
+
+  a.marquee_inner_left {
+    color: rgb(0, 123, 255);
+  }
 }
