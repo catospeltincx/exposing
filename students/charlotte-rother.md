@@ -10,11 +10,10 @@ bio: >-
 
   My work is socio-political due to my choice of context, yet it was particularly important for me to work out the social aspect, the work is a way for both the audience and the participants to gain a sense of belonging, and to bring people together as a group.
 images:
-  - images/invitation.jpg
+  - images/charlotte_rother.bildschirmfoto-2021-07-01-um-13.23.09.png
   - images/charlotte_rother_live.jpg
   - images/charlotte_rother_eye_close_up.jpg
-  - images/img_7721.jpg
-  - images/img_8106.jpg
+  - images/charlotte_rother_free.jpg
 social_links:
   - https://robotexpo.netlify.app/
   - www.behance.net/charlotterother
