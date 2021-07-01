@@ -331,6 +331,7 @@ a.home {
   padding: 1rem;
   border-radius: 50%;
   margin: 4rem 1.5rem 0rem 0rem;
+  cursor: pointer;
 }
 
 .page-project {
