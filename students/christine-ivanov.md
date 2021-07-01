@@ -4,14 +4,13 @@ project_title: (un)design
 context: Socio-Political Context
 year: 2020—2021
 main_image: /images/02_ivanov-undesign-postcard_2021.jpg
-bio: I'm a graphic designer from Brussels questioning my practice's political,
-  social, and environmental aspects. I have worked as a graphic designer for a
-  few years now. The marketing and economic constraints of my work have led me
-  to a frustrating but inquiring position on how to reconcile my practice with
-  my ethical values. Part of my research is about reflecting on how graphic
-  designers can become agents for social change by questioning our role and
-  responsibilities to develop a more sustainable/conscious practice through a
-  participatory and inclusive way of working.
+bio: I'm a graphic designer from Brussels. I have worked as a graphic designer
+  for a few years now. My professional background led me to a frustrating but
+  inquiring position on how to reconcile my practice with my ethical values.
+  Part of my research is about reflecting on how graphic designers can become
+  agents for social change by questioning our role and responsibilities to
+  develop a more sustainable/conscious practice through a participatory and
+  inclusive way of working.
 images:
   - /images/04_ivanov-undesign-box-otherside-_2021.jpg
   - /images/01_ivanov_undesign-platform-wip_2021.jpg
