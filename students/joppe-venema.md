@@ -26,6 +26,5 @@ Retain, Restrain, Refrain follows a narrative that entangles biographical elemen
 inspection camera (usually used for plumbing purposes), 3D animations and CGI, the 
 speculative video becomes unsettling and eerie. By ‘tunneling’ through different images of 
 (abstract/ambiguous) landscapes and bodily passages the linear pattern of narrative 
-becomes disoriented. By combining different knowledge and information about the future 
-with archeology as a backdrop, I attempt to link a deep past with a near future while 
-questioning the ideas of biological and as well as technological progress.
+becomes disoriented. By combining ideas and information about the future 
+with archeology as a backdrop, I attempt to link a deep past with a near future.
