@@ -17,6 +17,8 @@ bio: My artistic practice is an ongoing investigation about intangible matters
   organic and inorganic processes that happen ‘invisibly’, with my work I aim to
   highlight and (re)present the interconnected relationships between Nature and
   Humans. 
+images:
+  - /images/screenshot-2021-07-01-at-13.25.20.jpg
 social_links:
   - https://www.joppevenema.info/
 ---
