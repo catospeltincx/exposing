@@ -12,12 +12,11 @@ bio: Martijn M. Mertens is a Belgian brand identity designer and
   or updates brand strategy and visual identity, and deals with plenty of other
   graphic design related inquiries.
 images:
-  - /images/comp-1.gif
   - /images/web-renders-front.jpg
-  - /images/fake-mockup-view-1.jpg
   - /images/web-renders-4.jpg
   - /images/fake-mock-3-view-2.jpg
   - /images/web-renders-2.jpg
+  - /images/fake-mockup-view-1.jpg
 social_links:
   - https://mmcreated.com
   - https://behance.net/mmcreated
