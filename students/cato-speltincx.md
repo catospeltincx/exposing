@@ -4,9 +4,19 @@ project_title: Reading, Browsing, Orderly Messing
 context: Digital Context
 year: 2020—2021
 main_image: /images/cato-speltincx-07.png
-bio: I am interested in creating systems that you follow or ignore in order to
-  achieve a result. It is the factor of chance that comes into play that I find
-  interesting.
+bio: >
+  I research systems of books. While organising my own book and looking at other
+  books I’m intrigued by ways to challange the static characteristics of the
+  medium.
+
+
+  I enjoy finding a way to present my research digitally. You can check out my processfolio via the following link —>
+
+
+  https://reading-browsing.netlify.app/
+
+
+  It was made to look at from desktop, not mobile.
 images:
   - /images/cato-speltincx-01.png
   - /images/vorm-56.png
@@ -17,4 +27,4 @@ images:
 social_links:
   - https://www.instagram.com/catospelt/
 ---
-The book consists of automatically generated page links, images and captions from Wikipedia. These lists of information come from a list containing keywords that describe my research. A spread from the book that includes page links, images and captions automatically generated from Wikipedia.
+The book consists of automatically generated page titles, images and captions from Wikipedia. These lists of information come from a list of keywords that describe my research.
