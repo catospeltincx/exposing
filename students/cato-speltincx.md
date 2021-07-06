@@ -6,7 +6,7 @@ year: 2020—2021
 main_image: /images/cato-speltincx-07.png
 bio: >
   I research systems of books. While organising my own book and looking at other
-  books I’m intrigued by ways to challange the static characteristics of the
+  books I’m intrigued by ways to challenge the static characteristics of the
   medium.
 
 
