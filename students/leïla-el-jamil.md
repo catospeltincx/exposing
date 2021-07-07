@@ -9,6 +9,12 @@ bio: >-
   And if you gaze for long into an abyss, the abyss gazes also into you.” 
 
   ― Friedrich Nietzsche, Beyond Good and Evil
+images:
+  - /images/img20210121_13272743.jpg
+  - /images/img20210121_13285908.jpg
+  - /images/image-014.jpg
+  - /images/image-008.jpg
+  - /images/img20210121_13280981.jpg
 social_links:
   - https://www.instagram.com/leilaeljamil/
 ---
