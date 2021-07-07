@@ -1,6 +1,6 @@
 ---
 student_name: Leïla El Jamil
-project_title: " "
+project_title: Short Cuts
 context: Autonomous Context
 year: 2020—2021
 main_image: /images/image-015.jpg
