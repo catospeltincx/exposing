@@ -3,7 +3,7 @@ student_name: Leïla El Jamil
 project_title: Short Cuts
 context: Autonomous Context
 year: 2020—2021
-main_image: /images/inès_bousbiasalah.jpg
+main_image: /images/image-015.jpg
 bio: >-
   “He who fights with monsters might take care lest he thereby become a monster.
   And if you gaze for long into an abyss, the abyss gazes also into you.” 
