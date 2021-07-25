@@ -12,16 +12,9 @@ body {
 }
 
 @font-face {
-  font-family: Fibel;
-  src: url(/fonts/Fibel_Sued.ttf);
-}
-
-@font-face {
   font-family: Sequel;
   src: url(/fonts/OGJ\ Type\ Design\ -\ Sequel\ 100\ Black\ 45.ttf);
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Archivo+Narrow&display=swap");
 
 p,
 a,
@@ -94,14 +87,14 @@ header {
   margin-right: -8px;
   margin-top: -10px;
   margin-bottom: 10px;
-  height: 50px;
+  height: 60px;
   overflow: hidden;
   position: relative;
   /* background: #fefefe; */
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(210, 210, 203);
   /* border-top: 1px solid #4a4a4a;
   border-bottom: 1px solid #4a4a4a; */
-  filter: drop-shadow(10px 10px 40px purple);
+  filter: drop-shadow(10px 10px 40px rgb(48, 255, 131));
 }
 
 .marquee_inner_left {
@@ -285,7 +278,7 @@ p.contact {
   margin: 5rem -3rem 0 1.5rem;
   font-family: "Archivo Narrow", sans-serif;
   font-size: 3rem;
-  filter: drop-shadow(10px 5px 5px rgb(0, 255, 115));
+  filter: drop-shadow(10px 5px 5px rgb(38, 172, 245));
   max-width: fit-content;
 }
 
@@ -436,7 +429,7 @@ p {
 
   .marquee {
     height: 100px;
-    background-color: rgb(232, 93, 18);
+    background-color: rgb(210, 210, 203);
   }
 
   .marquee_inner_left {
